@@ -1,0 +1,10 @@
+C:\Users\nayr'b\Desktop\CodingDojo\CSharp_stack\CRUDelicious2\obj\Debug\netcoreapp2.0\CRUDelicious2.csproj.CoreCompileInputs.cache
+C:\Users\nayr'b\Desktop\CodingDojo\CSharp_stack\CRUDelicious2\obj\Debug\netcoreapp2.0\CRUDelicious2.AssemblyInfoInputs.cache
+C:\Users\nayr'b\Desktop\CodingDojo\CSharp_stack\CRUDelicious2\obj\Debug\netcoreapp2.0\CRUDelicious2.AssemblyInfo.cs
+C:\Users\nayr'b\Desktop\CodingDojo\CSharp_stack\CRUDelicious2\bin\Debug\netcoreapp2.0\CRUDelicious2.deps.json
+C:\Users\nayr'b\Desktop\CodingDojo\CSharp_stack\CRUDelicious2\bin\Debug\netcoreapp2.0\CRUDelicious2.runtimeconfig.json
+C:\Users\nayr'b\Desktop\CodingDojo\CSharp_stack\CRUDelicious2\bin\Debug\netcoreapp2.0\CRUDelicious2.runtimeconfig.dev.json
+C:\Users\nayr'b\Desktop\CodingDojo\CSharp_stack\CRUDelicious2\bin\Debug\netcoreapp2.0\CRUDelicious2.dll
+C:\Users\nayr'b\Desktop\CodingDojo\CSharp_stack\CRUDelicious2\bin\Debug\netcoreapp2.0\CRUDelicious2.pdb
+C:\Users\nayr'b\Desktop\CodingDojo\CSharp_stack\CRUDelicious2\obj\Debug\netcoreapp2.0\CRUDelicious2.dll
+C:\Users\nayr'b\Desktop\CodingDojo\CSharp_stack\CRUDelicious2\obj\Debug\netcoreapp2.0\CRUDelicious2.pdb

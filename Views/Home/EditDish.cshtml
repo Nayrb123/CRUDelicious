@@ -1,0 +1,65 @@
+@using CRUDelicious2.Models
+@model Dishes
+
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <style>
+            h1 {
+                text-align: center;
+                margin: 20px;
+            }
+            body {
+                    background-color: #deefee;
+                 }
+        </style>
+    </head>
+<body>
+
+    <h1>Edit Dish!</h1>
+<h3><a href="/">Home</a></h3>
+
+    <form asp-action="editdish" asp-controller="Home" method="POST">
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label asp-for="Chef">Chef's Name</label>
+                <span asp-validation-for="Chef"></span>
+                <input type="text" class="form-control" asp-for="Chef" value="@ViewBag.dishpage.Chef">
+            </div>
+            <div class="form-group col-md-1">
+                <label asp-for="Tastiness">Tastiness</label>
+                <span asp-validation-for="Tastiness"></span>
+                <select class="form-control" asp-for="Tastiness" >
+                    <option></option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description">Description</label>
+                <span asp-validation-for="Description"></span>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" asp-for="Description" value="@ViewBag.dishpage.Description"></textarea>
+            </div>
+        </div>            
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label asp-for="Name">Name of Dish</label>
+                <span asp-validation-for="Name"></span>
+                <input type="text" class="form-control" asp-for="Name" value="@ViewBag.dishpage.Name">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label asp-for="Calories"># of Calories</label>
+                <span asp-validation-for="Calories"></span>
+                <input type="text" class="form-control" asp-for="Calories" value="@ViewBag.dishpage.Calories">
+            </div>
+        </div>
+            <button type="submit" class="btn btn-info">Submit</button>
+    </form>
+
+</body>
+</html>

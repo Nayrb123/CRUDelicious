@@ -1,0 +1,64 @@
+@using CRUDelicious2.Models
+@model Dishes
+
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <style>
+            h1 {
+                text-align: center;
+                margin: 20px;
+            }
+            body {
+                    background-color: #deefee;
+                 }
+        </style>
+    </head>
+<body>
+
+    <h1>Add a new Dish!</h1>
+<a href="/">Home</a>
+    <form asp-action="create" asp-controller="Home" method="POST">
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="inputEmail4">Chef's Name</label>
+                <span asp-validation-for="Chef"></span>
+                <input type="text" class="form-control" asp-for="Chef">
+            </div>
+            <div class="form-group col-md-1">
+                <label for="inputPassword4">Tastiness</label>
+                <span asp-validation-for="Tastiness"></span>
+                <select class="form-control" asp-for="Tastiness">
+                    <option></option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Description</label>
+                <span asp-validation-for="Description"></span>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" asp-for="Description"></textarea>
+            </div>
+        </div>            
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="inputEmail4">Name of Dish</label>
+                <span asp-validation-for="Name"></span>
+                <input type="text" class="form-control" asp-for="Name">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="inputEmail4"># of Calories</label>
+                <span asp-validation-for="Calories"></span>
+                <input type="text" class="form-control" asp-for="Calories">
+            </div>
+        </div>
+            <button type="submit" class="btn btn-info">Submit</button>
+    </form>
+
+</body>
+</html>
